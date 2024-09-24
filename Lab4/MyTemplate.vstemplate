@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>lab4</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CandCPP</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>lab4</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="lab4.cproj" File="lab4.cproj" ReplaceParameters="true">
+      <Folder Name="libm" TargetFolderName="libm" />
+      <Folder Name="delay" TargetFolderName="delay">
+        <ProjectItem ReplaceParameters="true" TargetFileName="delay.h">delay.h</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="delay_asm.s">delay_asm.s</ProjectItem>
+      </Folder>
+      <Folder Name="hmi" TargetFolderName="hmi">
+        <ProjectItem ReplaceParameters="true" TargetFileName="hmi.c">hmi.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="hmi.h">hmi.h</ProjectItem>
+      </Folder>
+      <Folder Name="lcd" TargetFolderName="lcd">
+        <ProjectItem ReplaceParameters="true" TargetFileName="lcd.c">lcd.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="lcd.h">lcd.h</ProjectItem>
+      </Folder>
+      <Folder Name="numkey" TargetFolderName="numkey">
+        <ProjectItem ReplaceParameters="true" TargetFileName="numkey.c">numkey.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="numkey.h">numkey.h</ProjectItem>
+      </Folder>
+      <Folder Name="random" TargetFolderName="random">
+        <ProjectItem ReplaceParameters="true" TargetFileName="random.c">random.c</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="random.h">random.h</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="common.h">common.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="guess_nr.c">guess_nr.c</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="guess_nr.h">guess_nr.h</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="lab4.c">lab4.c</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

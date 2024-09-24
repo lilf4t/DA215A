@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Lab3</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Assembler</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Lab3</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Lab3.asmproj" File="Lab3.asmproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="delay.inc">delay.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="keyboard.inc">keyboard.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Lab3.asm">Lab3.asm</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="lcd.inc">lcd.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="monitor.inc">monitor.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stat_data.inc">stat_data.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stats.inc">stats.inc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Tarning.inc">Tarning.inc</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
